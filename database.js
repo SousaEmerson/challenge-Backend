@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://0.0.0.0:27017/books', { useNewUrlParser: true })
+mongoose.connect('mongodb://0.0.0.0:27017/user', { useNewUrlParser: true })
 mongoose.Promise = global.Promise
 
 const db = mongoose.connection

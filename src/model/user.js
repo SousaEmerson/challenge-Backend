@@ -5,7 +5,6 @@ const DataSchema = new mongoose.Schema({
   name: { type: String },
   password: { type: String },
   email: { type: String },
-  password: { type: String },
   phones: [
     {
       number: { type: String },
